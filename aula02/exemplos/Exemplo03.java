@@ -1,7 +1,5 @@
 package exemplos;
 
-import javax.print.event.PrintJobListener;
-
 //warning = aviso (amarelo)
  //Error = erro (vernelho)
 
