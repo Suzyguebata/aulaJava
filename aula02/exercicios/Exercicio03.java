@@ -7,7 +7,7 @@ public class Exercicio03 {
         Scanner entrada = new Scanner(System.in);
         Double salario, novoSalario;
 
-        System.out.println("Digite seu salário atual :");
+        System.out.println("Informe o salário atual :");
         salario = entrada.nextDouble();
 
         novoSalario = (salario * 0.25) + salario;
