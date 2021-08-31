@@ -1,0 +1,12 @@
+# esta linha é um comentário
+
+# temos 3 opções para ignorar:
+
+# 1- colocar o nome do arquivo
+lib01.lib
+
+# 2 - mascara para um conjunto de arquivos
+*.lib
+
+# 3 - ignorar a pasta inteira
+biblioteca/
