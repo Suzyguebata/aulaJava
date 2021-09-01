@@ -10,8 +10,8 @@ public class Exercicio01 {
         System.out.println("Digte seu número :");
         numero = entrada.nextInt();
 
-        if(numero >= 20){
-            System.out.println(numero / 2);
+        if (numero > 20) {
+            System.out.println("a metade de " + numero + " é " + ((double)numero / 2));
         }
 
         entrada.close();
