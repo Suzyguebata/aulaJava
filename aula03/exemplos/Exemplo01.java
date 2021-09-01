@@ -6,7 +6,7 @@ public class Exemplo01 {
 
         nota = 5.5;
 
-        if(nota >= 6){
+        if (nota >= 6) {
             System.out.println("Você foi aprovado");
         }
 

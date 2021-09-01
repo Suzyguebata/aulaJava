@@ -6,9 +6,9 @@ public class Exemplo02 {
 
         idade = 13;
 
-        if(idade >= 18){
+        if (idade >= 18) {
             System.out.println("Você já pode dirigir. ");
-        } else{
+        } else {
             System.out.println("Pegue um ônibus ou vai de metrô. ");
         }
 

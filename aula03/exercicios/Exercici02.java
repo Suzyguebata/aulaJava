@@ -12,11 +12,11 @@ public class Exercici02 {
         System.out.println("Digite a segunda nota: ");
         nota2 = entrada.nextDouble();
 
-        media = nota1 *0.4 + nota2 * 0.6;
+        media = nota1 * 0.4 + nota2 * 0.6;
 
-        if(media>= 6){
+        if (media >= 6) {
             System.out.println("Aprovado com média " + media);
-        }else{
+        } else {
             System.out.println("Reprovado com média " + media);
         }
 

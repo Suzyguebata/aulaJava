@@ -11,7 +11,7 @@ public class Exercicio01 {
         numero = entrada.nextInt();
 
         if (numero > 20) {
-            System.out.println("a metade de " + numero + " é " + ((double)numero / 2));
+            System.out.println("a metade de " + numero + " é " + ((double) numero / 2));
         }
 
         entrada.close();
