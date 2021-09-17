@@ -15,5 +15,9 @@ public class ContaEspecial extends Conta{
         }
         return false;
     }
+    @Override
+    public String toString() {
+        return super.toString() + " - limite" + limite;
+    }
     
 }

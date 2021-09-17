@@ -3,8 +3,6 @@ package exercicios.exercicioConta;
 import java.util.Scanner;
 
 import exercicios.exercicioConta.entidades.ContaCorrente;
-import exercicios.exercicioConta.entidades.ContaEspecial;
-import exercicios.exercicioConta.entidades.ContaPoupanca;
 import exercicios.exercicioConta.util.GerenciaContas;
 
 public class AppConta {
@@ -12,12 +10,10 @@ public class AppConta {
         Scanner teclado = new Scanner(System.in);
         int opcao;
         int numeroConta;
-        double valor;
+        double valor, limite;
         GerenciaContas gerenciaContas = new GerenciaContas();
 
         ContaCorrente cc = null; // null = nulo = sem referencia a um objeto (aponta para NADA)
-        ContaEspecial ce = null;
-        ContaPoupanca cp = null;
 
         do {
             System.out.println("1-Nova Conta Corrente");
@@ -33,28 +29,46 @@ public class AppConta {
                 case 1:
                     System.out.println("Digite o número da conta:");
                     numeroConta = teclado.nextInt();
-                    //cc = new ContaCorrente(numeroConta);
                     gerenciaContas.novaContaCorrente(numeroConta);
                     break;
-                case 2:
-                    System.out.println("Criando uma nova conta especial");
+                case 2: 
+                    System.out.println("Digite o número da conta:");
+                    numeroConta = teclado.nextInt();
+                    System.out.println("Digite o limite:");
+                    limite = teclado.nextDouble();
+                    gerenciaContas.novaContaEspecial(numeroConta, limite);
                     break;
                 case 3:
-                    System.out.println("Criando uma nova conta Poupança");
+                    System.out.println("Digite o número da conta:");
+                    numeroConta = teclado.nextInt();
+                    gerenciaContas.novaContaPoupanca(numeroConta);
                     break;
                 case 4:
+                    System.out.println("Digite o número da conta:");
+                    numeroConta = teclado.nextInt();
                     System.out.println("Qual o valor do deposito?");
                     valor = teclado.nextDouble();
-                    cc.depositar(valor);
+                    if (gerenciaContas.depositar(numeroConta, valor)) {
+                        System.out.println("Depósito realizado.");
+                    } else {
+                        System.out.println("Falha na operação.");
+                    }
                     break;
                 case 5:
+                    System.out.println("Digite o número da conta:");
+                    numeroConta = teclado.nextInt();
                     System.out.println("Qual o valor do saque?");
                     valor = teclado.nextDouble();
-                    cc.sacar(valor);
+                    if (gerenciaContas.sacar(numeroConta, valor)) {
+                        System.out.println("Saque realizado.");
+                    } else {
+                        System.out.println("Falha na operação.");
+                    }
                     break;
                 case 6:
-                    //System.out.println(cc);
-                    gerenciaContas.exibirContas();
+                    System.out.println("Digite o número da conta:");
+                    numeroConta = teclado.nextInt();
+                    System.out.println(gerenciaContas.exibirSaldo(numeroConta));
                     break;
                 case 7:
                     break;
