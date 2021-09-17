@@ -1,4 +1,4 @@
-package com.itau.spring02;
+package com.itau.spring02.controller;
 
 import com.itau.spring02.model.Carro;
 import com.itau.spring02.repository.CarroRepo;

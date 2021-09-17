@@ -3,6 +3,7 @@ package com.itau.spring02.controller;
 
 import java.util.List;
 
+import com.itau.spring02.dto.UsuarioDTO;
 import com.itau.spring02.model.Usuario;
 import com.itau.spring02.repository.UsuarioRepo;
 
@@ -28,9 +29,14 @@ public class UsuarioController {
     @Autowired // pede para implementar a classe e os métodos de acesso
     private UsuarioRepo repo;
     
-    @GetMapping("/all")
+    @GetMapping()
     public List<Usuario> obterTodos() {
         return (List<Usuario>) repo.findAll();
+    }
+
+    @GetMapping("order")
+    public List<Usuario> obterTodosOrdenado() {
+        return (List<Usuario>) repo.findAllByOrderByNome();
     }
     
     @GetMapping("/id/{codigo}")
@@ -43,6 +49,20 @@ public class UsuarioController {
             return ResponseEntity.ok(usuarioEncontrado); // retrona 200 - ok
         }else {
             return ResponseEntity.notFound().build(); // resposta vazia com 404
+        }
+        
+    }
+
+    @GetMapping("/idfiltro/{codigo}")
+    public ResponseEntity<UsuarioDTO> obterUsuarioFiltro(@PathVariable long codigo) {
+
+        Usuario usuarioEncontrado = repo.findById(codigo).orElse(null);
+
+        if(usuarioEncontrado != null) {
+            UsuarioDTO userDTO = new UsuarioDTO(usuarioEncontrado);
+            return ResponseEntity.ok(userDTO); 
+        }else {
+            return ResponseEntity.notFound().build(); 
         }
         
     }
@@ -78,4 +98,9 @@ public class UsuarioController {
         repo.deleteById(id);
         return ResponseEntity.ok().build();
     }
-}
+
+    @GetMapping("/cod/{id}")
+    public Object buscarPorId(@PathVariable long id) {
+        return repo.buscaUsuario(id);
+    }
+}   
