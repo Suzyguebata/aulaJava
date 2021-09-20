@@ -1,0 +1,16 @@
+D:\suzan\Documents\gama\DotNet\aula01\bin\Debug\net5.0\aula01.exe
+D:\suzan\Documents\gama\DotNet\aula01\bin\Debug\net5.0\aula01.deps.json
+D:\suzan\Documents\gama\DotNet\aula01\bin\Debug\net5.0\aula01.runtimeconfig.json
+D:\suzan\Documents\gama\DotNet\aula01\bin\Debug\net5.0\aula01.runtimeconfig.dev.json
+D:\suzan\Documents\gama\DotNet\aula01\bin\Debug\net5.0\aula01.dll
+D:\suzan\Documents\gama\DotNet\aula01\bin\Debug\net5.0\ref\aula01.dll
+D:\suzan\Documents\gama\DotNet\aula01\bin\Debug\net5.0\aula01.pdb
+D:\suzan\Documents\gama\DotNet\aula01\obj\Debug\net5.0\aula01.csproj.AssemblyReference.cache
+D:\suzan\Documents\gama\DotNet\aula01\obj\Debug\net5.0\aula01.GeneratedMSBuildEditorConfig.editorconfig
+D:\suzan\Documents\gama\DotNet\aula01\obj\Debug\net5.0\aula01.AssemblyInfoInputs.cache
+D:\suzan\Documents\gama\DotNet\aula01\obj\Debug\net5.0\aula01.AssemblyInfo.cs
+D:\suzan\Documents\gama\DotNet\aula01\obj\Debug\net5.0\aula01.csproj.CoreCompileInputs.cache
+D:\suzan\Documents\gama\DotNet\aula01\obj\Debug\net5.0\aula01.dll
+D:\suzan\Documents\gama\DotNet\aula01\obj\Debug\net5.0\ref\aula01.dll
+D:\suzan\Documents\gama\DotNet\aula01\obj\Debug\net5.0\aula01.pdb
+D:\suzan\Documents\gama\DotNet\aula01\obj\Debug\net5.0\aula01.genruntimeconfig.cache

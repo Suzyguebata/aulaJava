@@ -1,0 +1,16 @@
+D:\suzan\Documents\gama\DotNet\helloWorld\bin\Debug\net5.0\helloWorld.exe
+D:\suzan\Documents\gama\DotNet\helloWorld\bin\Debug\net5.0\helloWorld.deps.json
+D:\suzan\Documents\gama\DotNet\helloWorld\bin\Debug\net5.0\helloWorld.runtimeconfig.json
+D:\suzan\Documents\gama\DotNet\helloWorld\bin\Debug\net5.0\helloWorld.runtimeconfig.dev.json
+D:\suzan\Documents\gama\DotNet\helloWorld\bin\Debug\net5.0\helloWorld.dll
+D:\suzan\Documents\gama\DotNet\helloWorld\bin\Debug\net5.0\ref\helloWorld.dll
+D:\suzan\Documents\gama\DotNet\helloWorld\bin\Debug\net5.0\helloWorld.pdb
+D:\suzan\Documents\gama\DotNet\helloWorld\obj\Debug\net5.0\helloWorld.csproj.AssemblyReference.cache
+D:\suzan\Documents\gama\DotNet\helloWorld\obj\Debug\net5.0\helloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\suzan\Documents\gama\DotNet\helloWorld\obj\Debug\net5.0\helloWorld.AssemblyInfoInputs.cache
+D:\suzan\Documents\gama\DotNet\helloWorld\obj\Debug\net5.0\helloWorld.AssemblyInfo.cs
+D:\suzan\Documents\gama\DotNet\helloWorld\obj\Debug\net5.0\helloWorld.csproj.CoreCompileInputs.cache
+D:\suzan\Documents\gama\DotNet\helloWorld\obj\Debug\net5.0\helloWorld.dll
+D:\suzan\Documents\gama\DotNet\helloWorld\obj\Debug\net5.0\ref\helloWorld.dll
+D:\suzan\Documents\gama\DotNet\helloWorld\obj\Debug\net5.0\helloWorld.pdb
+D:\suzan\Documents\gama\DotNet\helloWorld\obj\Debug\net5.0\helloWorld.genruntimeconfig.cache
