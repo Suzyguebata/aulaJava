@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\suzan\\Documents\\gama\\dotNet\\exercicio01\\exercicio01.csproj": {}
+    "D:\\suzan\\Documents\\gama\\dotNet\\aula02\\aula02.csproj": {}
   },
   "projects": {
-    "D:\\suzan\\Documents\\gama\\dotNet\\exercicio01\\exercicio01.csproj": {
+    "D:\\suzan\\Documents\\gama\\dotNet\\aula02\\aula02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\suzan\\Documents\\gama\\dotNet\\exercicio01\\exercicio01.csproj",
-        "projectName": "exercicio01",
-        "projectPath": "D:\\suzan\\Documents\\gama\\dotNet\\exercicio01\\exercicio01.csproj",
+        "projectUniqueName": "D:\\suzan\\Documents\\gama\\dotNet\\aula02\\aula02.csproj",
+        "projectName": "aula02",
+        "projectPath": "D:\\suzan\\Documents\\gama\\dotNet\\aula02\\aula02.csproj",
         "packagesPath": "C:\\Users\\suzan\\.nuget\\packages\\",
-        "outputPath": "D:\\suzan\\Documents\\gama\\dotNet\\exercicio01\\obj\\",
+        "outputPath": "D:\\suzan\\Documents\\gama\\dotNet\\aula02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\suzan\\AppData\\Roaming\\NuGet\\NuGet.Config"
