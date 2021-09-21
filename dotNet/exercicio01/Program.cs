@@ -6,7 +6,11 @@ namespace exercicio01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
+            int idade;
+            DateTime dataNascimento;
+            
+            Console.WriteLine()
         }
+        
     }
 }
