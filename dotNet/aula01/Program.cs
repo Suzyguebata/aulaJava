@@ -7,8 +7,8 @@ namespace aula01
         static void Main(string[] args)
         {
             int idadeAluno;
-            string nomeAluno, sobrenomeAluno;
-            bool validaridade;
+            //string nomeAluno, sobrenomeAluno;
+            //bool validaridade;
             DateTime dataNascimento;
 
             //TryParse - Tenta fazer uma conversao, se nao for correto ele retorna
@@ -36,12 +36,12 @@ namespace aula01
 
                 Console.WriteLine("A idade calculada é: " + auxIdade);
             }
-            catch(RankException ex)
+            catch(RankException )
             {
                 //Controlar minha exception
                 Console.WriteLine(" *** Erro no formato da idade ***");
             }   
-            catch(FormatException ex)
+            catch(FormatException )
             {
                 //Controlar minha exception
                 Console.WriteLine(" *** Erro no formato da idade ***");
