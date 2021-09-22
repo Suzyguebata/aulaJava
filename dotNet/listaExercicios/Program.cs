@@ -14,6 +14,12 @@ namespace listaExercicios
                 Console.WriteLine(" ** 2 - Exercicio 02");
                 Console.WriteLine(" ** 3 - Exercicio 03");
                 Console.WriteLine(" ** 4 - Exercicio 04");
+                Console.WriteLine(" ** 5 - Exercicio 05");
+                Console.WriteLine(" ** 6 - Exercicio 06");
+                Console.WriteLine(" ** 7 - Exercicio 07");
+                Console.WriteLine(" ** 8 - Exercicio 08");
+                Console.WriteLine(" ** 9 - Exercicio 09");
+                Console.WriteLine(" ** 10 - Exercicio 10");
                 Console.WriteLine(" -- 99 para sair");
                 
 
@@ -32,6 +38,24 @@ namespace listaExercicios
                         break;
                     case 4:
                         Exercicio04.executar();
+                        break;
+                    case 5:
+                        Exercicio05.executar();
+                        break;
+                    case 6:
+                        Exercicio05.executar();
+                        break;
+                    case 7:
+                        Exercicio05.executar();
+                        break;
+                    case 8:
+                        Exercicio05.executar();
+                        break;
+                    case 9:
+                        Exercicio05.executar();
+                        break;
+                    case 10:
+                        Exercicio01.executar();
                         break;
                     case 99:
                         Console.WriteLine("Finalizando programa.");
