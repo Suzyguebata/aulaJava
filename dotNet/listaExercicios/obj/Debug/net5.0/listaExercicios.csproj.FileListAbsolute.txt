@@ -1,0 +1,16 @@
+D:\suzan\Documents\gama\dotNet\listaExercicios\bin\Debug\net5.0\listaExercicios.exe
+D:\suzan\Documents\gama\dotNet\listaExercicios\bin\Debug\net5.0\listaExercicios.deps.json
+D:\suzan\Documents\gama\dotNet\listaExercicios\bin\Debug\net5.0\listaExercicios.runtimeconfig.json
+D:\suzan\Documents\gama\dotNet\listaExercicios\bin\Debug\net5.0\listaExercicios.runtimeconfig.dev.json
+D:\suzan\Documents\gama\dotNet\listaExercicios\bin\Debug\net5.0\listaExercicios.dll
+D:\suzan\Documents\gama\dotNet\listaExercicios\bin\Debug\net5.0\ref\listaExercicios.dll
+D:\suzan\Documents\gama\dotNet\listaExercicios\bin\Debug\net5.0\listaExercicios.pdb
+D:\suzan\Documents\gama\dotNet\listaExercicios\obj\Debug\net5.0\listaExercicios.csproj.AssemblyReference.cache
+D:\suzan\Documents\gama\dotNet\listaExercicios\obj\Debug\net5.0\listaExercicios.GeneratedMSBuildEditorConfig.editorconfig
+D:\suzan\Documents\gama\dotNet\listaExercicios\obj\Debug\net5.0\listaExercicios.AssemblyInfoInputs.cache
+D:\suzan\Documents\gama\dotNet\listaExercicios\obj\Debug\net5.0\listaExercicios.AssemblyInfo.cs
+D:\suzan\Documents\gama\dotNet\listaExercicios\obj\Debug\net5.0\listaExercicios.csproj.CoreCompileInputs.cache
+D:\suzan\Documents\gama\dotNet\listaExercicios\obj\Debug\net5.0\listaExercicios.dll
+D:\suzan\Documents\gama\dotNet\listaExercicios\obj\Debug\net5.0\ref\listaExercicios.dll
+D:\suzan\Documents\gama\dotNet\listaExercicios\obj\Debug\net5.0\listaExercicios.pdb
+D:\suzan\Documents\gama\dotNet\listaExercicios\obj\Debug\net5.0\listaExercicios.genruntimeconfig.cache
