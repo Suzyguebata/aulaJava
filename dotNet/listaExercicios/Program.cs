@@ -43,19 +43,19 @@ namespace listaExercicios
                         Exercicio05.executar();
                         break;
                     case 6:
-                        Exercicio05.executar();
+                        Exercicio06.executar();
                         break;
                     case 7:
-                        Exercicio05.executar();
+                        Exercicio07.executar();
                         break;
                     case 8:
-                        Exercicio05.executar();
+                        Exercicio08.executar();
                         break;
                     case 9:
-                        Exercicio05.executar();
+                        Exercicio09.executar();
                         break;
                     case 10:
-                        Exercicio01.executar();
+                        Exercicio10.executar();
                         break;
                     case 99:
                         Console.WriteLine("Finalizando programa.");
