@@ -12,7 +12,20 @@ namespace listaExercicios
     {
         public static void executar()
         {
+            float n1, n2, n3, mediaPonderada;
 
+            Console.WriteLine(" - Digite a nota 1: ");
+            float.TryParse(Console.ReadLine(), out n1);
+
+            Console.WriteLine(" - Digite a nota 2: ");
+            float.TryParse(Console.ReadLine(), out n2);
+
+            Console.WriteLine(" - Digite a nota 3: ");
+            float.TryParse(Console.ReadLine(), out n3);
+
+            mediaPonderada = ((n1*2)+(n2*3)+(n3*5))/10;
+
+            Console.WriteLine("A média final é: " + mediaPonderada);
         }
     }
 }

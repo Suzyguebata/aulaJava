@@ -11,7 +11,15 @@ namespace listaExercicios
     {
         public static void executar()
         {
-            
+            float celsius, fahrenheit;
+
+            Console.WriteLine("Informe a temperatura em Fahrenheit");
+            float.TryParse(Console.ReadLine().Replace(".",","), out fahrenheit);
+
+            celsius = (fahrenheit - 32) * ((float)5/9);
+
+            Console.WriteLine(" *** Temperatura em Celsius: " + Math.Round(celsius,1) + "°");
+
         }
     }
 }
