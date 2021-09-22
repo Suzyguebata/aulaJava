@@ -8,12 +8,12 @@ namespace listaExercicios
         public static void executar()
         {
             Console.WriteLine("Digite a altura ");
-            int.TryParse(Console.ReadLine(), out int altura);
+            int.TryParse(Console.ReadLine(), out int alturaretangulo);
 
             Console.WriteLine("Digite a base");
-            int.TryParse(Console.ReadLine(), out int baseBase);
+            int.TryParse(Console.ReadLine(), out int baseRetangulo);
 
-            int retangulo = baseBase * altura;
+            int retangulo = baseRetangulo * alturaretangulo;
 
             Console.WriteLine("Valor do retangulo é {0}", retangulo);
         }

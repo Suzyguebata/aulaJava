@@ -4,11 +4,7 @@ namespace listaExercicios
 {
     class Exercicio04
     {
-        int diasAno = 365;
-        int diasMes = 30;
         int dias, meses, anos;
-
-        DateTime anoNascimento;
         
         public static void executar()
         {
@@ -21,9 +17,9 @@ namespace listaExercicios
             Console.WriteLine("dias");
             int.TryParse(Console.ReadLine(), out int dias);
 
-            
+            dias = (dias+(anos*365)+(meses*30));
 
-
+            Console.WriteLine("sua idade em dias é: " + dias);
         }
     }
 }
